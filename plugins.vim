@@ -24,6 +24,13 @@ Plug 'airblade/vim-gitgutter'
 " why it's called Fugitive.
 Plug 'tpope/vim-fugitive'
 
+" Surround
+" Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML
+" tags, and more. The plugin provides mappings to easily delete, change and
+" add such surroundings in pairs.
+" https://vimawesome.com/plugin/surround-vim
+Plug 'tpope/vim-surround'
+
 call plug#end()
 
 
