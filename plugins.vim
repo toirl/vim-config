@@ -39,6 +39,13 @@ Plug 'tpope/vim-surround'
 " https://vimawesome.com/plugin/easymotion
 Plug 'easymotion/vim-easymotion'
 
+" GPG
+" This script implements transparent editing of gpg encrypted files. The
+" filename must have a .gpg, .pgp or .asc suffix.
+" https://vimawesome.com/plugin/gnupg-vim
+Plug 'jamessan/vim-gnupg'
+
+
 call plug#end()
 
 
