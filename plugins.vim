@@ -7,6 +7,11 @@ call plug#begin('~/.vim/plugged')
 " https://vimawesome.com/plugin/ctrlp-vim-red
 Plug 'kien/ctrlp.vim'
 
+" Vim-Airline
+" Lean & mean status/tabline for vim that's light as air.
+" https://vimawesome.com/plugin/vim-airline-superman
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
 
 
