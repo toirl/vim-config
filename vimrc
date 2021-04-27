@@ -6,3 +6,7 @@ set nocompatible
 
 " Load plugins 
 :so ~/.vim/plugins.vim
+
+" Load configs of plugins 
+:so ~/.vim/plugin_configs/ctrlp.vim
+
