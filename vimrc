@@ -3,3 +3,6 @@ set nocompatible
 
 " Mappings/Keybindings
 :so ~/.vim/keys.vim
+
+" Load plugins 
+:so ~/.vim/plugins.vim
