@@ -12,6 +12,12 @@ Plug 'kien/ctrlp.vim'
 " https://vimawesome.com/plugin/vim-airline-superman
 Plug 'vim-airline/vim-airline'
 
+" Vim-Gutter
+" A Vim plugin which shows a git diff in the sign column. It shows which lines
+" have been added, modified, or removed.
+" https://vimawesome.com/plugin/vim-gitgutter
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 
