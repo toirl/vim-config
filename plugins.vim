@@ -31,6 +31,14 @@ Plug 'tpope/vim-fugitive'
 " https://vimawesome.com/plugin/surround-vim
 Plug 'tpope/vim-surround'
 
+" EasyMotionn
+" EasyMotion provides a much simpler way to use some motions in vim. It takes
+" the <number> out of <number>w or <number>f{char} by highlighting all
+" possible choices and allowing you to press one key to jump directly to the
+" target.
+" https://vimawesome.com/plugin/easymotion
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()
 
 
