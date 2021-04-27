@@ -18,6 +18,12 @@ Plug 'vim-airline/vim-airline'
 " https://vimawesome.com/plugin/vim-gitgutter
 Plug 'airblade/vim-gitgutter'
 
+" Fugitive
+" Fugitive is the premier Vim plugin for Git. Or maybe it's the premier Git
+" plugin for Vim? Either way, it's "so awesome, it should be illegal". That's
+" why it's called Fugitive.
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 
