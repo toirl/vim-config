@@ -45,6 +45,12 @@ Plug 'easymotion/vim-easymotion'
 " https://vimawesome.com/plugin/gnupg-vim
 Plug 'jamessan/vim-gnupg'
 
+" CoC
+" Make your Vim/Neovim as smart as VSCode.
+" Use release branch (recommend)
+" https://github.com/neoclide/coc.nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 
 call plug#end()
 
