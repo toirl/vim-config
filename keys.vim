@@ -19,8 +19,8 @@ noremap <Right> :bnext<CR>
 noremap <Left> :bprevious<CR>
 
 " Use UP and DOWN keys to jump between errors
-noremap <Up> :cprevious<CR>
-noremap <Down> :cnext<CR>
+" noremap <Up> :cprevious<CR>
+" noremap <Down> :cnext<CR>
 
 " Settings for spellchecks
 " Pressing \ss will toggle and toggle spell checking
