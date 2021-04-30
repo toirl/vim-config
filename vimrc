@@ -38,4 +38,5 @@ filetype on
 
 " Load specific configuration based on the filtype
 augroup filetype
+au FileType python source ~/.vim/filetypes/python.vim
 augroup END
