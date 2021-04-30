@@ -26,3 +26,9 @@ noremap <Left> :bprevious<CR>
 " Pressing \ss will toggle and toggle spell checking
 map <leader>ss :setlocal spell!<cr>
 map zz 1z=
+
+" Map executing a makefile.
+" nmap <leader>mmm :exec '!make'<CR>
+" nmap <leader>mmt :exec '!make test'<CR>
+" nmap <leader>mmd :exec '!make docs'<CR>
+" nmap <leader>mmc :exec '!make clean'<CR>
