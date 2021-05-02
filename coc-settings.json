@@ -1,0 +1,7 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": [],
+	"python.formatting.provider": "yapf",
+	"python.linting.pycodestyleEnabled": true,
+	"python.linting.pycodestyleArgs": ["--max-line-length", "100"],
+	"python.linting.pydocstyleEnabled": true
+}

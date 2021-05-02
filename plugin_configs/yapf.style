@@ -1,0 +1,6 @@
+[style]
+based_on_style=google
+spaces_before_comment=5
+split_before_logical_operator=true
+split_all_comma_separated_values=false
+column_limit=100
