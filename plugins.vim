@@ -51,6 +51,10 @@ Plug 'jamessan/vim-gnupg'
 " https://github.com/neoclide/coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Vimspector
+" A multi language graphical debugger for Vim
+" https://https://github.com/puremourning/vimspector
+Plug 'puremourning/vimspector'
 
 call plug#end()
 

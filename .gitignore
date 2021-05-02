@@ -3,4 +3,5 @@ plugged
 .netrwhist
 yarn.lock
 node_modules
+vimspector-config
 

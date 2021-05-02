@@ -31,6 +31,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/gitgutter.vim
 :so ~/.vim/plugin_configs/easymotion.vim
 :so ~/.vim/plugin_configs/coc.vim
+:so ~/.vim/plugin_configs/vimspector.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
