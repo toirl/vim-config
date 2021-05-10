@@ -1,3 +1,5 @@
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-go', 'coc-pyright', 'coc-sql', 'coc-html', 'coc-css', 'coc-xml', 'coc-markdownlint']
+
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
 if has("patch-8.1.1564")

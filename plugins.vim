@@ -56,6 +56,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " https://https://github.com/puremourning/vimspector
 Plug 'puremourning/vimspector'
 
+" Vim Markdown Preview
+" A small Vim plugin for previewing markdown files in a browser
+" https://github.com/JamshedVesuna/vim-markdown-preview#readme
+Plug 'JamshedVesuna/vim-markdown-preview'
+
 call plug#end()
 
 

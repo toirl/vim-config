@@ -32,6 +32,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/easymotion.vim
 :so ~/.vim/plugin_configs/coc.vim
 :so ~/.vim/plugin_configs/vimspector.vim
+:so ~/.vim/plugin_configs/markdown.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
@@ -40,4 +41,5 @@ filetype on
 " Load specific configuration based on the filtype
 augroup filetype
 au FileType python source ~/.vim/filetypes/python.vim
+au FileType html source ~/.vim/filetypes/html.vim
 augroup END
