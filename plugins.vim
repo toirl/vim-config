@@ -61,6 +61,11 @@ Plug 'puremourning/vimspector'
 " https://github.com/JamshedVesuna/vim-markdown-preview#readme
 Plug 'JamshedVesuna/vim-markdown-preview'
 
+" Vim Go-Plugin
+" This plugin adds Go language support for Vim, with the following main features
+" https://github.com/fatih/vim-go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 call plug#end()
 
 
