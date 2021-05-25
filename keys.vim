@@ -1,5 +1,4 @@
 let mapleader = ","
-
 " Open and reload the vimrc file
 map ,v :sp ~/.vim/vimrc<CR>_
 map <silent> ,V :source ~/.vim/vimrc <CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
@@ -27,6 +26,9 @@ noremap <Left> :bprevious<CR>
 map <leader>ss :setlocal spell!<cr>
 map zz 1z=
 
+" Open even nonexisting files under cursor.
+noremap <leader>gf :e <cfile><cr>
+"noremap gf :e <cfile><cr>
 " Map executing a makefile.
 " nmap <leader>mmm :exec '!make'<CR>
 " nmap <leader>mmt :exec '!make test'<CR>
