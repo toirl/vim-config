@@ -66,6 +66,16 @@ Plug 'JamshedVesuna/vim-markdown-preview'
 " https://github.com/fatih/vim-go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+" closetag.vim
+" Will close html, xml tags
+" https://github.com/alvan/vim-closetag
+Plug 'alvan/vim-closetag'
+
+" vim-vue-plugin
+" Vim syntax and indent plugin for .vue files. Mainly inspired by mxw/vim-jsx
+" https://github.com/leafOfTree/vim-vue-plugin
+Plug 'leafOfTree/vim-vue-plugin'
+
 call plug#end()
 
 

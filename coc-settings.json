@@ -1,5 +1,5 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": [],
+	"coc.preferences.formatOnSaveFiletypes": ["html"],
 	"python.formatting.provider": "yapf",
 	"python.formatting.yapfArgs":["--style", "{based_on_style: google, split_before_logical_operator: True, column_limit: 100}"],
 	"python.linting.enabled": true,
