@@ -33,6 +33,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/coc.vim
 :so ~/.vim/plugin_configs/vimspector.vim
 :so ~/.vim/plugin_configs/markdown.vim
+:so ~/.vim/plugin_configs/closetags.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
@@ -42,4 +43,5 @@ filetype on
 augroup filetype
 au FileType python source ~/.vim/filetypes/python.vim
 au FileType html source ~/.vim/filetypes/html.vim
+au FileType vue source ~/.vim/filetypes/html.vim
 augroup END
