@@ -66,6 +66,11 @@ Plug 'JamshedVesuna/vim-markdown-preview'
 " https://github.com/fatih/vim-go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+" Vim Close tags for HTML and XML
+" Will automatically close tags in HTML and HTML
+" https://github.com/alvan/vim-closetag
+Plug 'alvan/vim-closetag'
+
 call plug#end()
 
 
