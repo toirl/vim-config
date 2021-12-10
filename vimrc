@@ -45,4 +45,5 @@ au FileType python source ~/.vim/filetypes/python.vim
 au FileType html source ~/.vim/filetypes/html.vim
 au FileType vue source ~/.vim/filetypes/html.vim
 au FileType md source ~/.vim/filetypes/md.vim
+au FileType yaml source ~/.vim/filetypes/yaml.vim
 augroup END
