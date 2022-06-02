@@ -74,6 +74,9 @@ Plug 'alvan/vim-closetag'
 " gruvbox colorsheme
 Plug 'morhetz/gruvbox'
 
+" easy comment lines
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 
