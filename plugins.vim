@@ -71,6 +71,9 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " https://github.com/alvan/vim-closetag
 Plug 'alvan/vim-closetag'
 
+" gruvbox colorsheme
+Plug 'morhetz/gruvbox'
+
 call plug#end()
 
 

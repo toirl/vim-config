@@ -34,6 +34,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/vimspector.vim
 :so ~/.vim/plugin_configs/markdown.vim
 :so ~/.vim/plugin_configs/closetags.vim
+:so ~/.vim/plugin_configs/gruvbox.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
