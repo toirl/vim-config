@@ -26,7 +26,8 @@ set updatetime=300
 :so ~/.vim/plugins.vim
 
 " Load configs of plugins 
-:so ~/.vim/plugin_configs/ctrlp.vim
+:so ~/.vim/plugin_configs/fzf.vim
+" :so ~/.vim/plugin_configs/ctrlp.vim
 :so ~/.vim/plugin_configs/fugitive.vim
 :so ~/.vim/plugin_configs/gitgutter.vim
 :so ~/.vim/plugin_configs/easymotion.vim

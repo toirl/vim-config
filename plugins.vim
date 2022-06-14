@@ -1,11 +1,10 @@
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
-
-" ctrlp
-" Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
-" https://vimawesome.com/plugin/ctrlp-vim-red
-Plug 'kien/ctrlp.vim'
+"
+" fzf 
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " Vim-Airline
 " Lean & mean status/tabline for vim that's light as air.
