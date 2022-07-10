@@ -76,6 +76,7 @@ Plug 'morhetz/gruvbox'
 " easy comment lines
 Plug 'tpope/vim-commentary'
 
+" https://github.com/lark-parser/vim-lark-syntax 
+Plug 'lark-parser/vim-lark-syntax'
+
 call plug#end()
-
-
