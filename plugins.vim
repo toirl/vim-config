@@ -79,4 +79,8 @@ Plug 'tpope/vim-commentary'
 " https://github.com/lark-parser/vim-lark-syntax 
 Plug 'lark-parser/vim-lark-syntax'
 
+" Easy Search
+" https://github.com/mileszs/ack.vim
+Plug 'mileszs/ack.vim'
+
 call plug#end()
