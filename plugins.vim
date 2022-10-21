@@ -83,4 +83,11 @@ Plug 'lark-parser/vim-lark-syntax'
 " https://github.com/mileszs/ack.vim
 Plug 'mileszs/ack.vim'
 
+" Setup Plugins for Flutter/Dart development
+" https://github.com/dart-lang/dart-vim-plugin
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+
+
 call plug#end()
