@@ -37,6 +37,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/closetags.vim
 :so ~/.vim/plugin_configs/gruvbox.vim
 :so ~/.vim/plugin_configs/ack.vim
+:so ~/.vim/plugin_configs/dart-vim-plugin.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
