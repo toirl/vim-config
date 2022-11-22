@@ -34,3 +34,6 @@ noremap <leader>gf :e <cfile><cr>
 " nmap <leader>mmt :exec '!make test'<CR>
 " nmap <leader>mmd :exec '!make docs'<CR>
 " nmap <leader>mmc :exec '!make clean'<CR>
+"
+nnoremap <space> za
+vnoremap <space> zf
