@@ -35,5 +35,7 @@ noremap <leader>gf :e <cfile><cr>
 " nmap <leader>mmd :exec '!make docs'<CR>
 " nmap <leader>mmc :exec '!make clean'<CR>
 "
+
+" Folding
 nnoremap <space> za
 vnoremap <space> zf
