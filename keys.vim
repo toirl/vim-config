@@ -20,7 +20,6 @@ noremap <Left> :bprevious<CR>
 " Settings for spellchecks
 " Pressing \ss will toggle and toggle spell checking
 map <leader>ss :setlocal spell!<cr>
-map zz 1z=
 
 " Open even nonexisting files under cursor.
 noremap <leader>gf :e <cfile><cr>
