@@ -17,10 +17,6 @@ imap jj <Esc>
 noremap <Right> :bnext<CR>
 noremap <Left> :bprevious<CR>
 
-" Use UP and DOWN keys to jump between errors
-" noremap <Up> :cprevious<CR>
-" noremap <Down> :cnext<CR>
-
 " Settings for spellchecks
 " Pressing \ss will toggle and toggle spell checking
 map <leader>ss :setlocal spell!<cr>
@@ -28,13 +24,6 @@ map zz 1z=
 
 " Open even nonexisting files under cursor.
 noremap <leader>gf :e <cfile><cr>
-"noremap gf :e <cfile><cr>
-" Map executing a makefile.
-" nmap <leader>mmm :exec '!make'<CR>
-" nmap <leader>mmt :exec '!make test'<CR>
-" nmap <leader>mmd :exec '!make docs'<CR>
-" nmap <leader>mmc :exec '!make clean'<CR>
-"
 
 " Folding
 nnoremap <space> za
