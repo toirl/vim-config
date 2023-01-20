@@ -2,7 +2,7 @@
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 "
-" fzf 
+" fzf
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
@@ -76,7 +76,7 @@ Plug 'morhetz/gruvbox'
 " easy comment lines
 Plug 'tpope/vim-commentary'
 
-" https://github.com/lark-parser/vim-lark-syntax 
+" https://github.com/lark-parser/vim-lark-syntax
 Plug 'lark-parser/vim-lark-syntax'
 
 " Easy Search
@@ -88,6 +88,10 @@ Plug 'mileszs/ack.vim'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
+
+" Handle whitespaces
+" https://github.com/ntpeters/vim-better-whitespace
+Plug 'ntpeters/vim-better-whitespace'
 
 
 call plug#end()

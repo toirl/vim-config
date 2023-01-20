@@ -18,13 +18,13 @@ set updatetime=300
 " Mappings/Keybindings
 :so ~/.vim/keys.vim
 
-" Some UI settings 
+" Some UI settings
 :so ~/.vim/ui.vim
 
-" Load plugins 
+" Load plugins
 :so ~/.vim/plugins.vim
 
-" Load configs of plugins 
+" Load configs of plugins
 :so ~/.vim/plugin_configs/fzf.vim
 :so ~/.vim/plugin_configs/fugitive.vim
 :so ~/.vim/plugin_configs/gitgutter.vim
