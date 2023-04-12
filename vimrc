@@ -36,6 +36,7 @@ set updatetime=300
 :so ~/.vim/plugin_configs/gruvbox.vim
 :so ~/.vim/plugin_configs/ack.vim
 :so ~/.vim/plugin_configs/dart-vim-plugin.vim
+:so ~/.vim/plugin_configs/vim-go.vim
 
 " Load filetype plugins and detect the type of file
 filetype plugin on
